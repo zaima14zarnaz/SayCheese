@@ -1,0 +1,181 @@
+.navbar
+{
+	display: block;
+	margin-right: 10px;
+	padding-top: 10px;
+	
+}
+.navlist
+{
+	position: sticky;
+	float: right;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.listitem
+{
+
+	display: inline;
+}
+.homeicon
+{
+	padding: 10px;
+}
+.homeicon:hover
+{
+	color: black;
+}
+.listitem a
+{
+	text-decoration: none;
+	margin: 2px;
+	padding: 10px;
+	font-family: Britannic bold;
+	color: grey;
+	border-radius: 15px;
+}
+.listitem a:hover
+{
+	background-color: hsl(0, 0%, 93%);
+}
+.searchbar
+{
+	width: 1040px;
+	margin: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: hsl(0, 0%, 93%);
+	border-radius: 6px;
+	border: 2px solid hsl(0, 0%, 93%);
+	font-size: 20px;
+	color: hsl(0, 0%, 71%);
+	font-family: Britannic bold;
+
+
+}
+.logoutbtn
+{
+	text-decoration: none;
+	margin: 2px;
+	padding: 10px;
+	font-family: Britannic bold;
+	color: grey;
+	border-radius: 15px;
+	border-color: white;
+	background-color: white;
+	font-size: 16px;
+	box-shadow: 0px 0px white;
+	text-shadow: 0px 0px white;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+.logoutbtn:hover
+{
+	background-color: hsl(0, 0%, 93%); 
+}
+.uploadbtn
+{
+	background-color: #bb9087;
+	border: 0px solid #bb9087;
+	color: white;
+	font-size: 24px;
+	width: 92%;
+	text-align: center;
+	padding: 10px;
+	font-family: Bradley Hand ITC;
+	border-radius: 10px;
+	cursor: pointer
+
+}
+.phototext
+{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid hsl(0, 0%, 40%);
+	margin-top: 30px;
+	width: 90%;
+	font-size: 20px;
+	padding-bottom: 30px;
+	font-family: Bradley Hand ITC;
+	color:hsl(0, 0%, 40%);
+}
+.browsePcBtn
+{
+
+}
+.titletext
+{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 40px;
+	width: 90%;
+	font-size: 40px;
+	padding-bottom: 30px;
+	font-family: Bradley Hand ITC;
+	color: hsl(0, 0%, 40%);
+	border-bottom: 3px solid hsl(0, 0%, 40%);
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.savebtn
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	border: 0px solid white;
+	border-color:  #bb9087;
+	background-color: #bb9087;
+	color: white;
+	font-size: 20px;
+	font-family: Bradley Hand ITC;
+	box-shadow: 0px #bb9087;
+	position: relative;
+	left:225px;
+	margin-top: 30px;
+
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+
+}
+.privacy
+{
+	font-size: 100px;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.linkbox
+{
+	display: box;
+	border:3px solid grey;
+	width: 82%;
+	border-radius: 2px;
+	margin-top: 230px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: Britannic bold;
+	padding-left: 15px;
+	padding-right: 15px;
+}

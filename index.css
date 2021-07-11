@@ -1,0 +1,36 @@
+.grid {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+   grid-auto-rows: 20px;
+}
+.photo {
+   grid-row-end: span 2;
+   width: 300px;
+   border-radius: 20px;
+   box-shadow: 6px 6px 5px grey;
+}
+.text
+{
+	grid-row-end: span 1;
+   width: 300px;
+}
+.content
+{
+	border-radius: 20px;
+   background-color: white;
+}
+.content:hover .photo
+{
+	opacity: 0.8;
+	background-color: black;
+}
+.heading
+{
+	padding-top: 10px;
+}
+.details
+{
+	padding: 5px;
+	padding-bottom: 10px;
+}

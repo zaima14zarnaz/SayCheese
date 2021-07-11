@@ -1,0 +1,142 @@
+body
+{
+	background-color: #a1695d;
+}
+.container
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.jpg);
+	background-position: right;
+
+	background-size: cover;
+	height: 100vh;
+	width: 50%;
+	margin-left: 300px;
+	position: relative;
+	right: 0px;
+	top:0px;
+	float: right;
+}
+.signup
+{
+	background-color: transparent;
+	display: inline-block;
+	position: relative;
+	top:0px;
+	left: 100px;
+	width: 200px;
+	vertical-align: center;
+
+
+
+}
+.emailfield
+{
+	width: 315px;
+	border: 2px solid #735c57;
+	font-size: 18px;
+	padding: 5px;
+	padding-bottom: 7px;
+	padding-top: 12px;
+	padding-left: 10px;
+	border-radius: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: black;
+	height: 20px;
+	font-family: Bradley Hand ITC;
+
+}
+.emailfield:hover
+{
+	border-color: #bb9087;
+	transition: 0.2s ease-in;
+}
+.namefield
+{
+	width: 315px;
+	border: 2px solid #735c57;
+	font-size: 18px;
+	padding: 5px;
+	padding-bottom: 7px;
+	padding-top: 12px;
+	padding-left: 10px;
+	border-radius: 6px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: black;
+	height: 20px;
+	font-family: Bradley Hand ITC;
+
+}
+.passfield
+{
+	width: 315px;
+	border: 2px solid #735c57;
+	font-size: 18px;
+	padding: 5px;
+	padding-bottom: 7px;
+	padding-top: 12px;
+	padding-left: 10px;
+	border-radius: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	color: black;
+	height: 20px;
+	font-family: Bradley Hand ITC;
+}
+.namefield:hover
+{
+	border-color: #bb9087;
+	transition: 0.2s ease-in;
+}
+.passfield:hover
+{
+	border-color: #bb9087;
+	transition: 0.2s ease-in;
+}
+.submitbtn
+{
+	margin-top: 20px;
+	width: 330px;
+	height: 50px;
+	background-color: #a1695d;
+	color: white;
+	font-size: 18px;
+	font-family: Bradley Hand ITC;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+.submitbtn:hover
+{
+	background-color: white;
+	color: #a1695d;
+	transition: 0.2s ease-in;
+	box-shadow: 6px grey;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.messeges
+{
+	width: 330px;
+	font-family: Bradley Hand ITC;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+.linkbox
+{
+	display: box;
+	border:3px solid grey;
+	width: 92%;
+}
+.privacy
+{
+	
+}

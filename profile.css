@@ -1,0 +1,167 @@
+.navbar
+{
+	display: block;
+	margin-right: 10px;
+	padding-top: 10px;
+	
+}
+.navlist
+{
+	position: sticky;
+	float: right;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.listitem
+{
+
+	display: inline;
+}
+.homeicon
+{
+	padding: 10px;
+}
+.homeicon:hover
+{
+	color: black;
+}
+.listitem a
+{
+	text-decoration: none;
+	margin: 2px;
+	padding: 10px;
+	font-family: Britannic bold;
+	color: grey;
+	border-radius: 15px;
+}
+.listitem a:hover
+{
+	background-color: hsl(0, 0%, 93%);
+}
+.searchbar
+{
+	width: 1040px;
+	margin: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: hsl(0, 0%, 93%);
+	border-radius: 6px;
+	border: 2px solid hsl(0, 0%, 93%);
+	font-size: 20px;
+	color: hsl(0, 0%, 71%);
+	font-family: Britannic bold;
+
+
+}
+.logoutbtn
+{
+	text-decoration: none;
+	margin: 2px;
+	padding: 10px;
+	font-family: Britannic bold;
+	color: grey;
+	border-radius: 15px;
+	border-color: white;
+	background-color: white;
+	font-size: 16px;
+	box-shadow: 0px 0px white;
+	text-shadow: 0px 0px white;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+.logoutbtn:hover
+{
+	background-color: hsl(0, 0%, 93%); 
+}
+.userinfo
+{
+	padding-left: 300px;
+	padding-right: 300px;
+}
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+.img-grid {
+    position: relative;
+    width: 1400px;
+    margin: 0 auto; /* this centers the grid, but a fixed pixel width is required */
+    background-color: black;
+
+
+}
+
+.img-grid ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.img-grid ul > li {
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+/* This moves the next 4 images to the next line (adjust to your needs).
+   If you need cross browser support, consider another option as this is CSS3: */
+.img-grid ul > li:nth-child(4n+4) {
+    clear: right;
+}
+
+/* If you like the images to be fluid (responsible to the parent element): */
+.img-grid li img {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    border: 0;
+    border-radius: 6px;
+    
+    object-fit: contain;
+    ...
+}
+.img-grid li img:hover
+{
+	opacity: 0.8;
+}
+
+.img-grid li img:hover .likebtn
+{
+	display: inline;
+}
+
+#item:hover #like {
+    display: inline-block;
+
+}
+.likebtn
+{
+	display: none;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 230px;
+	padding-top: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+	padding-bottom: 9px;
+	border-radius: 200px;
+	border: 0px solid white;
+	border-color:  #bb9087;
+	color: white;
+	font-size: 20px;
+	font-family: Bradley Hand ITC;
+	float: right;
+	z-index: +99;
+	cursor: pointer;
+	text-align: center;
+}
+
+
